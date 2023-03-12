@@ -14,6 +14,7 @@ Coisas estilo e responsividade não foram muito levados em conta, pois não é o
 
 <strong>RESULTADOS:</strong></br></br>
 <p>Satisfatórios</p>
+
 ![image](https://user-images.githubusercontent.com/126917122/224573079-ad17cbce-4df6-4222-b923-43189052538b.png)
 
 ![image](https://user-images.githubusercontent.com/126917122/224573119-123ed76b-de41-45fd-b6e4-ea97103824ac.png)
