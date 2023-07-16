@@ -52,10 +52,10 @@ function finalizar(){
         }
         let media = Number(soma/tot)
         res.innerHTML = ''
-        res.innerHTML += `<p>Ao todo temos ${tot} numeros</p>
-        <p> O maior valor informado foi ${maior}</p>
-        <p>O menor numero informado foi ${menor}</p>
-        <p>A soma de todos os valores é ${soma}</p>
-        <p>A media de todos os valores é ${media}</p>`
+        res.innerHTML += `<p>- Ao todo temos ${tot} numeros</p>
+        <p>- O maior valor informado foi ${maior}</p>
+        <p>- O menor numero informado foi ${menor}</p>
+        <p>- A soma de todos os valores é ${soma}</p>
+        <p>- A media de todos os valores é ${media}</p>`
     }
 }

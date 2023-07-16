@@ -1,31 +1,104 @@
 @charset "UTF-U";
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     background-color: rgb(88, 142, 223);
 }
 
 h1{
+    padding: 50px 0 0 0;
     color: white;
     text-align: center;
 }
 
-footer{
-    color: white;
-    text-align: center;
-}
 select#seltab{
     width: 50%;
 }
 section{
+    height: 80vh;
+    display: flex;
+    align-content: center;
+}
+
+.main{
+    margin: auto;
     background-color: rgb(248, 248, 248);
     border-radius: 10px;
-    padding: 10px;
+    padding: 40px 20px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.493);
     width: 700px;
-    margin: auto;
+}
+
+div#msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#res{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+}
+#res::before{
+    content: '--';
 }
 
 img{
     width: 300px;
     padding: auto;
+}
+
+
+footer{
+    position: relative;
+    bottom: 15px;
+    padding: 30px 0 0 0 ;
+    color: white;
+    text-align: center;
+}
+
+
+@media (max-width: 745px){
+    .main{
+        width: 550px;
+    }
+}
+
+@media (max-width: 570px){
+    .main{
+        width: 500px;
+        padding: 20px 20px;
+    }
+}
+
+@media (max-width: 320px){
+    h1{
+        padding: 20px 0 20px 0;
+        font-size: 1.3rem;
+    }
+    section{
+        height: 100vh;
+    }
+    .main{
+        width: 270px;
+        padding: 20px 20px;
+        margin: 0 auto;
+    }
+    #msg p{
+        text-align: center;
+    }
+    #msg input#txtnum {
+        width: 60%;
+        margin-right: 7px;
+    }
+    select#seltab{
+        width: 80%;
+    }
 }
