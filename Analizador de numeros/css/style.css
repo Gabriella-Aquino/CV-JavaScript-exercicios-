@@ -77,22 +77,39 @@ footer{
         padding: 20px 20px;
     }
 }
-
-@media (max-width: 320px){
+@media (max-width: 529px){
+    .main{
+        margin: 15px;
+    }
+}
+@media (max-width: 375px){
     h1{
         padding: 20px 0 20px 0;
         font-size: 1.3rem;
     }
+    .main{
+        width: 300px;
+        padding: 25px 20px;
+        margin: 0 auto;
+    }
+    #seltab{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 320px){
+    
     section{
-        height: 100vh;
+        height: 85vh;
     }
     .main{
         width: 270px;
-        padding: 20px 20px;
+        padding: 15px 20px;
         margin: 0 auto;
     }
     #msg p{
         text-align: center;
+        font-size: 0.6em;
     }
     #msg input#txtnum {
         width: 60%;
