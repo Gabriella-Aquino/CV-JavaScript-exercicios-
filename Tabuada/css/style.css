@@ -2,6 +2,10 @@
 
 body{
     background-color: rgb(88, 142, 223);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
@@ -21,9 +25,47 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.493);
     width: 700px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seltab{
+    display: flex;
+    margin-top: 20px;
+    width: 70%;
+}
+#seltab{
+    width: 100%;
+    border: solid gray 1px;
+}
+
+option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img{
     width: 300px;
     padding: auto;
+}
+
+@media (max-width: 760px){
+    section{
+        width: 85%;
+    }
+}
+@media (max-width: 375px){
+    #txtnum{
+        width: 30%;
+    }    
+    .divinput p{
+        text-align: center;
+        font-size: 0.87em;
+    }
+    header h1{
+        font-size: 1.5em;
+    }
 }
