@@ -13,4 +13,3 @@
 ![image](https://user-images.githubusercontent.com/126917122/222976256-24394b45-495a-4dee-8acc-0a551f7e1143.png)</br></br></br>
 
 
-<strong>TRABALHOS FUTUROS:</strong> melhorar o css ;)
